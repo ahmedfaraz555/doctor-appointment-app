@@ -1,1 +1,12 @@
+package com.medi360.utils;
+
+import android.app.Activity;
+import android.content.Context;
+
+import org.json.JSONException;
+
+
+public interface ApiCallback {
+    public void responseCallback(Context context, Activity activity, String response) throws JSONException;
+}
 
